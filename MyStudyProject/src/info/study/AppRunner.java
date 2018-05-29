@@ -1,18 +1,16 @@
 package info.study;
 
 import info.study.model.Circle;
-//import info.study.model.Square;
-import info.study.model.Shape;
 import info.study.model.Square;
 
 public class AppRunner {
 
 	public static void main(String[] args) {
 		
-//		Square square1 = new Square();
-//		square1.setSide(5);
-//		
-//		System.out.println(square1.getArea());
+		Square square1 = new Square();
+		square1.setSide(5);
+		
+		System.out.println(square1.getArea());
 		
 		Circle circ1 = new Circle();
 		circ1.setRadius(15);
